@@ -1,3 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+a:first-child > div > *:nth-child(2) {
+}
