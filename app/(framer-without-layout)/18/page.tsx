@@ -57,7 +57,7 @@ export default function Page() {
             {listMenu.map((list, index) => (
               <motion.li
                 key={list}
-                className="rounded bg-blue-800 text-white [&:first-child>div>div>*:nth-child(2)]:hidden [&:last-child>div>div>*:nth-child(1)]:hidden"
+                className="select-none rounded bg-blue-800 text-white [&:first-child>div>div>*:nth-child(2)]:hidden [&:last-child>div>div>*:nth-child(1)]:hidden"
                 layout
                 initial={{ opacity: 0, height: 0 }}
                 animate={{ opacity: 1, height: "auto" }}
